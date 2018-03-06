@@ -14,8 +14,14 @@ function positiveSum(arr) {
    if (filtered.length > 0) {
      return filtered.reduce((acc, curr) => {
        return acc + curr;
-     })
+     });
    } else {
      return 0;
    }
 }
+
+arr1 = [1,2,3];
+
+arr1.forEach(function(elem) {
+
+})

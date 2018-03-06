@@ -14,8 +14,10 @@ function gooseFilter (birds) {
   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 
   return birds.filter(item => {
-    if (item !== geese) {
+    if (geese.indexOf(item) > -1) {
       return item;
     }
   });
 };
+
+birds = ['African', 'Goose'];
